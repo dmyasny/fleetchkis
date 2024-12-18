@@ -1,0 +1,47 @@
+/**************************/
+/* SECTION SOLUTIONS */
+/**************************/
+
+.solution {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  display: flex;
+
+  transition: all 0.4s;
+}
+
+/* 
+  .solution {
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    border-radius: 11px;
+    overflow: hidden;
+  
+    transition: all 0.4s;
+  } */
+
+.solution:hover {
+  transform: translateY(-1.2rem);
+  box-shadow: 0 3.2rem 6.4rem rgba(0, 0, 0, 0.06);
+}
+
+.solution-content {
+  padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+}
+
+.solution-title {
+  font-size: 2.4rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.solution-text {
+  font-size: 1.6rem;
+  line-height: 1.2;
+}
+
+.solution-img {
+  height: 100%;
+  width: 100%;
+}
